@@ -23,7 +23,7 @@ import {
 
 const API_URL = 'http://localhost:3001';
 const api = {
-    uploadFile: (file) => axios.post(`${API_URL}/api/upload`, file)
+    uploadFile: (file) => axios.post(`${API_URL}/api/v1/document/upload`, file)
 };
 
 // REST API saga handlers
